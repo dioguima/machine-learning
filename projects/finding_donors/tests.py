@@ -4,7 +4,7 @@ import pandas as pd
 from time import time
 from IPython.display import display # Allows the use of display() for DataFrames
 
-from sklearn.model_selection.cross_validate import train_test_split
+from sklearn.model_selection import train_test_split
 
 # Load the Census dataset
 data = pd.read_csv("census.csv")
