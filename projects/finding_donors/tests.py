@@ -4,9 +4,12 @@ from sklearn.metrics import accuracy_score
 from time import time
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.gaussian_process import GaussianProcessClassifier
-from sklearn.svm import SVR
+from sklearn.svm import SVC
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.naive_bayes import GaussianNB
 
-a = SVR()
+GaussianProcessClassifier()
+a = GaussianNB()
 a.fi
 
 fbeta_score()
