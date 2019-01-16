@@ -7,6 +7,7 @@ from sklearn.gaussian_process import GaussianProcessClassifier
 from sklearn.svm import SVC
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.naive_bayes import GaussianNB
+from sklearn.model_selection
 
 GaussianProcessClassifier()
 a = GaussianNB()
